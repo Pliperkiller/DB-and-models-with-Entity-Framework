@@ -10,5 +10,6 @@ public class Categoria
     public string Nombre {get;set;}
     public string Descripcion {get;set;}
 
+    public int Peso {get;set;}
     public ICollection<Tarea> Tareas {get;set;}
 }
